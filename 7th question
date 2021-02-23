@@ -1,0 +1,11 @@
+Complete the following function that builds and returns a string containing a sentence constructed from a list of words, with the individual words separated by a single blank space. For example, if the words list contains the strings ["The", "itsy", "bitsy", "spider"] the function call buildSentence(words) would return "The itsy bitsy spider".
+##
+#  Builds and returns a string containing a sentence constructed from a list
+#  of words with each word separated by a blank space.
+#  @param words the list of words stored as strings
+#  @return a string containing the constructed sentence
+#
+def buildSentence(words) :
+seperator =" "
+   a = seperator.join(words)
+   return (a)
