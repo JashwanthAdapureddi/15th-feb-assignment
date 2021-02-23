@@ -1,0 +1,4 @@
+In gymnastics and diving competitions, a competitor's total score, which is comprised of scores from eight judges, is computed by removing the highest and lowest score and then summing the remaining six scores. Use the functions from Section 6.2.7 to compute a competitor's total score from a list of scores awarded by the eight judges
+scores = [9.2, 8.6, 9.9, 9.4, 9.4, 9.8, 8.8, 9.1] 
+totalScore = sum(scores)-(max(scores)+min(scores))
+print("Score = %5.2f" % totalScore)
