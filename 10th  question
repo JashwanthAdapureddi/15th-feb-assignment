@@ -1,0 +1,10 @@
+Modify the algorithm in Section 6.3.3 and the code below so that it prints all positive values in a list, separated by commas.
+values = [1, -2, 3, 4]
+new = []
+for i in range(len(values)): 
+  if values[i]>0:
+     new.append(values[i])
+for i in range(0,len(new)):     
+  if i!= len(new)-1:
+     print(new[i],end = ", ")
+print(new[i])     
