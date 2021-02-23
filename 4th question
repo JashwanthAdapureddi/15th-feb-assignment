@@ -1,0 +1,7 @@
+origValues = [17, 25, 5, 30, 100, 96, 48, 5, 14, 30] 
+newValues = []
+
+# Add the elements from the origValues list to newValues, in reverse order.
+newValues = origValues.copy()
+newValues.reverse()
+print(newValues)
